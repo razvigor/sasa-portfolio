@@ -116,7 +116,7 @@ const Navbar = () => {
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] text-secondary`}
                 >
-                  <Link to={`#${nav.id}`}>
+                  <Link to={`#${nav.id}`} onClick={() => setToggle(!toggle)}>
                     <Text tid={nav.id} />
                   </Link>
                 </li>
