@@ -17,9 +17,7 @@ export default {
       screens: {
         xs: '450px',
       },
-      backgroundImage: {
-        'hero-pattern': "url('/src/assets/herobg.png')",
-      },
+
       transitionDuration: {
         2500: '2500ms',
         3000: '3000ms',
