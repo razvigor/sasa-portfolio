@@ -1,0 +1,55 @@
+{
+  "about": "About",
+  "work": "Work",
+  "contact": "Contact",
+  "hero-title": "Hi, I'm ",
+  "hero-text_01": "Explore a collection of captivating projects that showcase",
+  "hero-text_02": "my expertise in crafting dynamic and engaging web experiences.",
+  "about-introduction": "Introduction",
+  "about-overview": "Overview.",
+  "aboute-text": "As a software developer specializing in TypeScript and JavaScript, I bring a wealth of experience to the table. My expertise extends to popular frameworks such as React and Three.js. My ability to learn quickly and work closely with clients sets me apart in the industry. I’m dedicated to crafting efficient, scalable, and user-friendly solutions that address real-world challenges. Let’s collaborate to transform your ideas into reality!",
+  "about-ui": "UI/UX",
+  "about-performance": "Performance",
+  "about-seo": "SEO",
+  "about-responsive": "Responsive Design",
+  "experiences-text": "What I have done so far",
+  "experiences-title": "Work Experience.",
+  "infoars": [
+    "Expertise in developing frontends for WordPress applications.",
+    "Frontend developer with experience in teaching frontend developer courses.",
+    "Implemented web accessibility best practices to ensure responsive and inclusive web applications.",
+    "Harnesses Git for version control and actively participates in code reviews with team members."
+  ],
+
+  "itexpert": [
+    "Crafted and maintained frontend code for a diverse range of web applications, leveraging HTML, CSS, SASS, JavaScript, React.js, and TypeScript.",
+    "Collaborated closely with designers and developers to guarantee visually appealing and user-friendly web applications.",
+    "Implemented web accessibility best practices to ensure responsive and inclusive web applications.",
+    "Harnesses Git for version control and actively participates in code reviews with team members."
+  ],
+
+  "freelancer": [
+    "Developing and maintaining web applications using React.js and other related technologies.",
+    "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    "Implementing responsive design and ensuring cross-browser compatibility.",
+    "Participating in code reviews and providing constructive feedback to other developers."
+  ],
+  "tech-text": "What i use",
+  "tech-title": "Technologies.",
+  "contact-getintouch": "Get in touch",
+  "contact-contact": "Contact.",
+  "contact-name": "Your Name",
+  "contact-name-placeholder": "What's your name?",
+  "contact-email": "Your email",
+  "contact-email-placeholder": "What's your web address?",
+  "contact-message": "Your Message",
+  "contact-message-placeholder": "What you want to say?",
+  "contact-send": "Send",
+  "contact-sending": "Sending...",
+  "contact-form-message": "Thank you for your message!",
+  "contact-form-error": "Oops! Something went wrong. Please try again later.",
+  "contact-all-fields-with-star": "All fields with an asterisk must be filled!",
+  "work-text": "My work",
+  "work-title": "Real-World Projects.",
+  "work-content": "My portfolio highlights my ability to tackle complex problems, proficiency in various technologies, and project management expertise."
+}

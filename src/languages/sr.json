@@ -1,0 +1,55 @@
+{
+  "about": "O meni",
+  "work": "Iskustvo",
+  "contact": "Kontakt",
+  "hero-title": "Zdravo, ja sam ",
+  "hero-text_01": "Istražite kolekciju zadivljujućih projekata koji prikazuju",
+  "hero-text_02": "moja stručnost u stvaranju dinamičnih i zanimljivih veb iskustava.",
+  "about-introduction": "Upoznajmo se",
+  "about-overview": "Pregled.",
+  "aboute-text": "Kao softverski developer specijalizovan za TypeScript i JavaScript, donosim bogato iskustvo. Moja stručnost se proteže na popularne okvire kao što su React i Three.js. Moja sposobnost brzog učenja i bliske saradnje sa klijentima izdvaja me u industriji. Posvećen sam stvaranju efikasnih, skalabilnih i korisnički prijateljskih rešenja koja rešavaju stvarne izazove. Hajde da sarađujemo i da pretvorimo vaše ideje u stvarnost!",
+  "about-ui": "UI/UX",
+  "about-performance": "Performanse",
+  "about-seo": "SEO",
+  "about-responsive": "Responsivan Dizajn",
+  "experiences-text": "Šta sam dosad radio",
+  "experiences-title": "Radno iskustvo.",
+  "infoars": [
+    "Stručnjak za razvoj frontend-a za WordPress aplikacije.",
+    "Frontend programer sa iskustvom u predavanju frontend kurseva.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+
+  "itexpert": [
+    "Razvio i održavao frontend kod za širok spektar veb aplikacija, koristeći HTML, CSS, SASS, JavaScript, React.js i TypeScript.",
+    "Tjesno sarađivao s dizajnerima i programerima kako bi se osigurao da veb aplikacije budu vizualno atraktivne i lagane za korisnike.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+
+  "freelancer": [
+    "Razvio i održavao frontend kod za širok spektar veb aplikacija, koristeći HTML, CSS, SASS, JavaScript, React.js i TypeScript.",
+    "Tijesno sarađivao s dizajnerima i programerima kako bi se osigurao da veb aplikacije budu vizualno atraktivne i lagane za korisnike.",
+    "Primjenjivao najbolje prakse pristupačnosti vebu kako bi osigurao reaktivne i inkluzivne veb aplikacije.",
+    "Koristi Git za kontrolu verzija i aktivno učestvuje u pregledima koda sa članovima tima."
+  ],
+  "tech-text": "Šta koristim",
+  "tech-title": "Tehnologije.",
+  "contact-getintouch": "Kontaktirajte nas",
+  "contact-contact": "Kontakt.",
+  "contact-name": "Vaše ime",
+  "contact-name-placeholder": "Kako se zovete?",
+  "contact-email": "Vaša email adresa",
+  "contact-email-placeholder": "Koja je vaša email adresa?",
+  "contact-message": "Vaša Poruka",
+  "contact-message-placeholder": "Šta želite da kažete?",
+  "contact-send": "Pošalji",
+  "contact-sending": "Slanje...",
+  "contact-form-message": "Hvala vam na poruci!",
+  "contact-form-error": "Ups! Došlo je do greške. Molimo pokušajte ponovo kasnije.",
+  "contact-all-fields-with-star": "Sva polja sa zvjezdicom moraju biti popunjena!",
+  "work-text": "Moj rad",
+  "work-title": "Stvarni Projekti.",
+  "work-content": "Moj portfolio ističe moju sposobnost da se bavim složenim problemima, poznavanje različitih tehnologija i stručnost u upravljanju projektima."
+}
