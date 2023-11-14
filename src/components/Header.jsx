@@ -31,7 +31,7 @@ const Header = () => {
       </div>
       <ComputersCanvas />
       <div className='absolute xs:bottom-6 bottom-24 w-full flex justify-center items-center'>
-        <a href='#about'>
+        <a href='#about' aria-label='Read more about Sasa'>
           <div className='w-[48px] h-[64px] rounded-3xl border-2 border-[#5271ff] flex justify-center items-start p-2'>
             <motion.div
               animate={{

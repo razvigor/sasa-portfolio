@@ -1,19 +1,22 @@
 import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from './Layout';
 import { LanguageProvider } from './context/Language';
+import AppLoader from './components/AppLoader';
 
-import Home from './pages/Home';
+const Home = lazy(() => import('./pages/Home'));
+const Layout = lazy(() => import('./Layout'));
 
 function App() {
   return (
     <LanguageProvider>
       <Router>
-        <Routes>
-          <Route path='/' element={<Layout />}>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
+        <Suspense fallback={<AppLoader />}>
+          <Routes>
+            <Route path='/' element={<Layout />}>
+              <Route index element={<Home />} />
+            </Route>
+          </Routes>
+        </Suspense>
       </Router>
     </LanguageProvider>
   );
