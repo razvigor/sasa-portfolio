@@ -11,7 +11,7 @@ const Header = () => {
     >
       <div className='absolute inset-0 bg-header-bg bg-cover bg-no-repeat bg-center'></div>
       <div
-        className={`absolute inset-0 top-[125px] lg:top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[120px] 2xl:top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-8 h-8 rounded-full bg-[#5271ff]' />

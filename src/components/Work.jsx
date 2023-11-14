@@ -3,21 +3,12 @@ import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { Text } from '../context/Language';
 
-const ProjectCard = ({
-  index,
-  name,
-  description,
-  tags,
-  image,
-  duration,
-  source_code_link,
-}) => {
+const ProjectCard = ({ index, name, tags, image, duration }) => {
   return (
     <div className='col-span-6  md:col-span-3 lg:col-span-2'>
       <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -36,19 +27,6 @@ const ProjectCard = ({
               loading='lazy'
               className={`w-full h-auto absolute left-0 object-cover rounded-2xl group-hover:-translate-y-full transition-all ${duration} ease-in-out`}
             />
-
-            {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, '_blank')}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2 object-contain'
-              />
-            </div>
-          </div> */}
           </div>
 
           <div className='mt-5'>

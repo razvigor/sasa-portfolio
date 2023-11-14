@@ -10,16 +10,10 @@ import {
   figma,
   threejs,
   poligon,
-  ring,
   slicering,
   conoid,
   triangle,
   logo,
-  ball,
-  cilindar,
-  cube,
-  halfring,
-  squarering,
   infoars,
   itexpert,
   assa,
@@ -27,6 +21,7 @@ import {
   martina,
   tranexpo,
   turbosavic,
+  sass,
 } from '../assets';
 
 export const navLinks = [
@@ -68,6 +63,10 @@ const technologies = [
   {
     name: 'CSS 3',
     icon: css,
+  },
+  {
+    name: 'SASS',
+    icon: sass,
   },
   {
     name: 'JavaScript',
@@ -152,7 +151,6 @@ const projects = [
     ],
     duration: 'duration-4500',
     image: martina,
-    source_code_link: 'https://github.com/',
   },
   {
     name: 'Lesnina',
@@ -174,7 +172,6 @@ const projects = [
     ],
     duration: 'duration-4000',
     image: lesnina,
-    source_code_link: 'https://github.com/',
   },
   {
     name: 'Assa',
@@ -196,7 +193,6 @@ const projects = [
     ],
     duration: 'duration-4000',
     image: assa,
-    source_code_link: 'https://github.com/',
   },
   {
     name: 'Tranexpo',
@@ -218,7 +214,6 @@ const projects = [
     ],
     duration: 'duration-2500',
     image: tranexpo,
-    source_code_link: 'https://github.com/',
   },
   {
     name: 'Turbo Savić',
@@ -240,7 +235,6 @@ const projects = [
     ],
     duration: 'duration-3000',
     image: turbosavic,
-    source_code_link: 'https://github.com/',
   },
 ];
 

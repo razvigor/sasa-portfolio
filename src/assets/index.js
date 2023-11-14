@@ -1,51 +1,46 @@
 import logo from './logo.svg';
-import backend from './backend.png';
-import mobile from './mobile.png';
-import github from './github.png';
 import menu from './menu.svg';
 import close from './close.svg';
-import web from './web.png';
-import css from './tech/css.png';
-import docker from './tech/docker.png';
-import figma from './tech/figma.png';
-import git from './tech/git.png';
-import html from './tech/html.png';
-import javascript from './tech/javascript.png';
-import mongodb from './tech/mongodb.png';
-import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+import css from './tech/css.webp';
+import docker from './tech/docker.webp';
+import figma from './tech/figma.webp';
+import git from './tech/git.webp';
+import html from './tech/html.webp';
+import javascript from './tech/javascript.webp';
+import mongodb from './tech/mongodb.webp';
+import nodejs from './tech/nodejs.webp';
+import reactjs from './tech/reactjs.webp';
+import redux from './tech/redux.webp';
+import tailwind from './tech/tailwind.webp';
+import typescript from './tech/typescript.webp';
+import sass from './tech/sass.webp';
 import threejs from './tech/threejs.svg';
 
-import poligon from './poligon.png';
-import ring from './ring.png';
-import slicering from './slice-ring.png';
-import conoid from './conoid.png';
-import ball from './ball.png';
-import cilindar from './cilindar.png';
-import cube from './cube.png';
-import halfring from './half-ring.png';
-import squarering from './square-ring.png';
-import triangle from './triangle.png';
-import infoars from './company/infoars-logo.png';
+import poligon from './poligon.webp';
+import ring from './ring.webp';
+import slicering from './slice-ring.webp';
+import conoid from './conoid.webp';
+import ball from './ball.webp';
+import cilindar from './cilindar.webp';
+import cube from './cube.webp';
+import halfring from './half-ring.webp';
+import squarering from './square-ring.webp';
+import triangle from './triangle.webp';
+import infoars from './company/infoars-logo.webp';
 import itexpert from './company/it-expert.webp';
 
-import assa from './assa-network.png';
-import lesnina from './lesninabanjaluka.png';
-import martina from './martinadjokic.png';
-import tranexpo from './tranexpo.png';
-import turbosavic from './turbosavic.png';
+import assa from './assa-network.webp';
+import lesnina from './lesninabanjaluka.webp';
+import martina from './martinadjokic.webp';
+import tranexpo from './tranexpo.webp';
+import turbosavic from './turbosavic.webp';
 
 export {
   logo,
-  backend,
-  mobile,
-  github,
   menu,
   close,
   css,
+  sass,
   docker,
   figma,
   git,
@@ -58,7 +53,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  web,
   poligon,
   ring,
   slicering,
