@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import backend from './backend.png';
-import creator from './creator.png';
 import mobile from './mobile.png';
 import github from './github.png';
 import menu from './menu.svg';
@@ -19,10 +18,6 @@ import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
-
-import tripguide from './tripguide.png';
-import carrent from './carrent.png';
-import jobit from './jobit.png';
 
 import poligon from './poligon.png';
 import ring from './ring.png';
@@ -46,7 +41,6 @@ import turbosavic from './turbosavic.png';
 export {
   logo,
   backend,
-  creator,
   mobile,
   github,
   menu,
@@ -64,9 +58,6 @@ export {
   tailwind,
   typescript,
   threejs,
-  tripguide,
-  carrent,
-  jobit,
   web,
   poligon,
   ring,

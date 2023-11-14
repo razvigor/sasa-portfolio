@@ -1,6 +1,6 @@
 import React from 'react';
 import { styles } from '../styles';
-import Hero from '../assets/hero.svg';
+import { motion } from 'framer-motion';
 import ComputersCanvas from './canvas/Computers';
 import { Text } from '../context/Language';
 
@@ -9,12 +9,9 @@ const Header = () => {
     <header
       className={`relative w-full h-screen mx-auto before:block before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-br before:from-[#05020c] before:to-[#4f2aa0]`}
     >
+      <div className='absolute inset-0 bg-header-bg bg-cover bg-no-repeat bg-center'></div>
       <div
-        className='absolute inset-0'
-        style={{ backgroundImage: `url(${Hero})` }}
-      ></div>
-      <div
-        className={`absolute inset-0 top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+        className={`absolute inset-0 top-[125px] lg:top-[180px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
           <div className='w-8 h-8 rounded-full bg-[#5271ff]' />
@@ -33,6 +30,23 @@ const Header = () => {
         </div>
       </div>
       <ComputersCanvas />
+      <div className='absolute xs:bottom-6 bottom-24 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className='w-[48px] h-[64px] rounded-3xl border-2 border-[#5271ff] flex justify-center items-start p-2'>
+            <motion.div
+              animate={{
+                y: [0, 24, 0],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+              className='w-3 h-3 rounded-full bg-[#5271ff] mb-1'
+            />
+          </div>
+        </a>
+      </div>
     </header>
   );
 };
