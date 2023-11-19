@@ -51,5 +51,31 @@
   "contact-all-fields-with-star": "All fields with an asterisk must be filled!",
   "work-text": "My work",
   "work-title": "Real-World Projects.",
-  "work-content": "My portfolio highlights my ability to tackle complex problems, proficiency in various technologies, and project management expertise."
+  "work-content": "My portfolio highlights my ability to tackle complex problems, proficiency in various technologies, and project management expertise.",
+  "courses-text": "My courses",
+  "courses-title": "Become a Front-End Developer with Me.",
+  "level_one": [
+    "Embracing HTML, the Backbone of Web Pages",
+    "Mastering CSS, the Language of Web Design",
+    "Enhancing Your Skills with Sass, a Preprocessor for CSS",
+    "Harnessing the Power of Tailwind CSS, a Utility-First CSS Framework",
+    "Bringing Your Skills to Life with Practical Projects"
+  ],
+  "level_two": [
+    "Before you can start writing complex JavaScript code, you need to learn the basics of the language. This includes understanding the syntax, data types, operators, and control flow statements.",
+    "DOM manipulation: JavaScript can be used to manipulate the Document Object Model (DOM), which is the tree-like structure that represents a web page.",
+    "Object-oriented programming: JavaScript is an object-oriented language, so it is important to learn about objects, classes, and inheritance.",
+    "Asynchronous programming: JavaScript is an asynchronous language, so it is important to learn about promises and callbacks.",
+    "Enhanced Code Organization: Modular programming fosters code organization by structuring code into well-defined modules, making it easier to navigate and manage large codebases.",
+    "Bringing Your Skills to Life with Practical Projects"
+  ],
+
+  "level_three": [
+    "In the dynamic world of web development, mastering React.js, a JavaScript library for building user interfaces, is essential for creating interactive and responsive web applications.",
+    "React.js utilizes a concept called the Virtual DOM, an in-memory representation of the actual DOM. This virtual DOM allows React.js to efficiently update the UI by only rendering the necessary changes, optimizing performance and enhancing user experience.",
+    "React.js applications are built from reusable components, independent pieces of code that encapsulate functionality and UI structure. By mastering components, you'll learn to modularize your code, making it easier to maintain and scale your applications.",
+    "JSX, an extension to JavaScript, provides a syntax for defining React.js components. JSX allows you to mix HTML-like syntax with JavaScript code, making it intuitive to create and manage UI elements within your React.js components.",
+    "React.js applications often deal with dynamic data, requiring mechanisms to manage and update the UI accordingly. By learning state management techniques, such as React's built-in state management system or external libraries like Redux, you'll ensure your applications remain responsive and data-driven.",
+    "Bringing Your Skills to Life with Practical Projects"
+  ]
 }

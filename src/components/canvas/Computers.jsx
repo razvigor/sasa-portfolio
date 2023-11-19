@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
-const Computers = ({ isMobile }) => {
-  const { scene } = useGLTF('./computer301.glb');
+const Computers = React.memo(({ isMobile }) => {
+  const { scene } = useGLTF('./computer301_o.glb');
 
   return (
     <mesh>
@@ -29,9 +29,9 @@ const Computers = ({ isMobile }) => {
       />
     </mesh>
   );
-};
+});
 
-const ComputersCanvas = () => {
+const ComputersCanvas = React.memo(() => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -65,6 +65,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          autoRotate
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
@@ -75,6 +76,6 @@ const ComputersCanvas = () => {
       <Preload all />
     </Canvas>
   );
-};
+});
 
 export default ComputersCanvas;

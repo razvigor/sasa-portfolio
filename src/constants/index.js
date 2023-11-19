@@ -9,6 +9,9 @@ import {
   git,
   figma,
   threejs,
+  level_one,
+  level_two,
+  level_three,
   poligon,
   slicering,
   conoid,
@@ -22,6 +25,7 @@ import {
   tranexpo,
   turbosavic,
   sass,
+  informatickikursevi,
 } from '../assets';
 
 export const navLinks = [
@@ -130,6 +134,33 @@ const experiences = [
   },
 ];
 
+const courses = [
+  {
+    title: 'HTML, CSS, SASS, Tailwind',
+    level: '01',
+    icon: level_one,
+    iconBg: '#383E56',
+    date: '32h',
+    point: 'level_one',
+  },
+  {
+    title: 'JavaScript',
+    level: '02',
+    icon: level_two,
+    iconBg: '#383E56',
+    date: '34h',
+    point: 'level_two',
+  },
+  {
+    title: 'React.js',
+    level: '03',
+    icon: level_three,
+    iconBg: '#383E56',
+    date: '30h',
+    point: 'level_three',
+  },
+];
+
 const projects = [
   {
     name: 'Martina Đokić',
@@ -153,7 +184,7 @@ const projects = [
     image: martina,
   },
   {
-    name: 'Lesnina',
+    name: 'Geek Solutions',
     description:
       'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
     tags: [
@@ -162,16 +193,16 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'wordpress',
+        name: 'restapi',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
     duration: 'duration-4000',
-    image: lesnina,
+    image: informatickikursevi,
   },
   {
     name: 'Assa',
@@ -236,6 +267,27 @@ const projects = [
     duration: 'duration-3000',
     image: turbosavic,
   },
+  {
+    name: 'Lesnina',
+    description:
+      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'wordpress',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    duration: 'duration-4000',
+    image: lesnina,
+  },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, courses };

@@ -10,7 +10,7 @@ import {
 
 import CanvasLoader from '../Loader';
 
-const Ball = (props) => {
+const Ball = React.memo((props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
@@ -42,13 +42,13 @@ const Ball = (props) => {
       </mesh>
     </Float>
   );
-};
+});
 
-const BallCanvas = ({ icon }) => {
+const BallCanvas = React.memo(({ icon }) => {
   return (
     <Canvas
       frameloop='demand'
-      dpr={[1, 2]}
+      dpr={[1, 1]}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -59,6 +59,6 @@ const BallCanvas = ({ icon }) => {
       <Preload all />
     </Canvas>
   );
-};
+});
 
 export default BallCanvas;

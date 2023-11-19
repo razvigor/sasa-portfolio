@@ -15,6 +15,9 @@ import tailwind from './tech/tailwind.webp';
 import typescript from './tech/typescript.webp';
 import sass from './tech/sass.webp';
 import threejs from './tech/threejs.svg';
+import level_one from './tech/level_one.png';
+import level_two from './tech/level_two.png';
+import level_three from './tech/level_three.png';
 
 import poligon from './poligon.webp';
 import ring from './ring.webp';
@@ -34,6 +37,7 @@ import lesnina from './lesninabanjaluka.webp';
 import martina from './martinadjokic.webp';
 import tranexpo from './tranexpo.webp';
 import turbosavic from './turbosavic.webp';
+import informatickikursevi from './informaticki-kursevi.webp';
 
 export {
   logo,
@@ -53,6 +57,9 @@ export {
   tailwind,
   typescript,
   threejs,
+  level_one,
+  level_two,
+  level_three,
   poligon,
   ring,
   slicering,
@@ -70,4 +77,5 @@ export {
   lesnina,
   tranexpo,
   turbosavic,
+  informatickikursevi,
 };

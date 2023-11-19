@@ -4,11 +4,15 @@ import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
 import CanvasLoader from '../Loader';
 
-const Earth = () => {
+const Earth = React.memo(() => {
   const earth = useGLTF('./of_planes_and_satellites.glb');
 
-  return <primitive object={earth.scene} scale={30} position={[0, 0, 0]} />;
-};
+  return (
+    <mesh>
+      <primitive object={earth.scene} scale={30} position={[0, 0, 0]} />
+    </mesh>
+  );
+});
 
 const EarthCanvas = () => {
   return (
