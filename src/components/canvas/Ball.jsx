@@ -60,7 +60,7 @@ const BallCanvas = React.memo(({ icon }) => {
     <Canvas
       frameloop='demand'
       dpr={[1, 1]}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, alpha: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />

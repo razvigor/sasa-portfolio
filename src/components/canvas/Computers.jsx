@@ -72,7 +72,7 @@ const ComputersCanvas = React.memo(() => {
       shadows
       dpr={[1, 2]}
       camera={{ position: [0, 10, 5], fov: 25, near: 0.1, far: 50 }}
-      gl={{ preserveDrawingBuffer: true }}
+      gl={{ preserveDrawingBuffer: true, alpha: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
