@@ -52,7 +52,7 @@ const CourseCard = ({ course }) => {
 const Courses = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div>
         <p className={styles.sectionSubText}>
           <Text tid='courses-text' />
         </p>

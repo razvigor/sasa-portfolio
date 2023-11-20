@@ -70,7 +70,7 @@ const ComputersCanvas = React.memo(() => {
     <Canvas
       frameloop='demand'
       shadows
-      dpr={[1, 2]}
+      dpr={[1, 1]}
       camera={{ position: [0, 10, 5], fov: 25, near: 0.1, far: 50 }}
       gl={{ preserveDrawingBuffer: true, alpha: true }}
     >
