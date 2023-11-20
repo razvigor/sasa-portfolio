@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
 
@@ -15,6 +15,18 @@ const Earth = React.memo(() => {
 });
 
 const EarthCanvas = () => {
+  const [initialized, setInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+    }
+  }, [initialized]);
+
+  if (!initialized) {
+    return <div></div>;
+  }
+
   return (
     <Canvas
       frameloop='demand'

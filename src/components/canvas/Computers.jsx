@@ -33,6 +33,7 @@ const Computers = React.memo(({ isMobile }) => {
 
 const ComputersCanvas = React.memo(() => {
   const [isMobile, setIsMobile] = useState(false);
+  const [initialized, setInitialized] = useState(false);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -54,6 +55,16 @@ const ComputersCanvas = React.memo(() => {
       mediaQuery.removeEventListener('change', handleMediaQueryChange);
     };
   }, []);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+    }
+  }, [initialized]);
+
+  if (!initialized) {
+    return <div></div>;
+  }
 
   return (
     <Canvas

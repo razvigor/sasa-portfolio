@@ -45,6 +45,17 @@ const Ball = React.memo((props) => {
 });
 
 const BallCanvas = React.memo(({ icon }) => {
+  const [initialized, setInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+    }
+  }, [initialized]);
+
+  if (!initialized) {
+    return <div></div>;
+  }
   return (
     <Canvas
       frameloop='demand'

@@ -31,6 +31,18 @@ const Stars = React.memo((props) => {
 });
 
 const StarsCanvas = React.memo(() => {
+  const [initialized, setInitialized] = useState(false);
+
+  useEffect(() => {
+    if (!initialized) {
+      setInitialized(true);
+    }
+  }, [initialized]);
+
+  if (!initialized) {
+    return <div></div>;
+  }
+
   return (
     <div className='w-full h-auto absolute inset-0 z-[-1]'>
       <Canvas camera={{ position: [0, 0, 1] }}>
